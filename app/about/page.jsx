@@ -122,8 +122,8 @@ const AboutPage = () => {
             >
               <div className="relative h-[500px] rounded-3xl overflow-hidden">
                 <Image
-                  src="/images/madina-mosque.jpg"
-                  alt="Madina Mosque"
+                  src="/junaid4.webp"
+                  alt="Junaid Hussain"
                   fill
                   className="object-cover"
                 />

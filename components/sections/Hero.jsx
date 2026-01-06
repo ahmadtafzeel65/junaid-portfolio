@@ -2,7 +2,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { PlayCircle, Users, Calendar, Star } from 'lucide-react'
+import { PlayCircle, Users, Calendar, Star, Youtube, InstagramIcon, Instagram, Facebook } from 'lucide-react'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
@@ -23,14 +24,14 @@ const Hero = () => {
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               className="absolute top-10 left-10 text-accent/20 text-6xl"
             >
-              ﷺ
+              <Youtube className='h-16 w-16'/>
             </motion.div>
             <motion.div
               animate={{ x: [0, 100, 0] }}
               transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
               className="absolute bottom-20 right-10 text-secondary/20 text-8xl"
             >
-              ﷽
+            <Instagram className='w-16 h-16'/>
             </motion.div>
           </>
         )}
@@ -40,7 +41,7 @@ const Hero = () => {
         <div className="text-center">
           {/* Main Title */}
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="hero-title text-4xl sm:text-6xl lg:text-7xl font-bold mb-4"
@@ -51,14 +52,15 @@ const Hero = () => {
 
           {/* Subtitle */}
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="hero-subtitle text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
           >
             Young Islamic Content Creator from <span className="text-accent font-arabic">المدينة المنورة</span>
           </motion.p>
-
+            
+           
           {/* Stats */}
           <motion.div
             initial={{ opacity: 0 }}

@@ -6,6 +6,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { GraduationCap, Target, Heart, BookOpen, Users, Award, Clock, Sparkles } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const AboutPreview = () => {
   const ref = useRef(null)
@@ -90,7 +91,7 @@ const AboutPreview = () => {
                 I aim to build bridges between classical Islamic knowledge and modern understanding.
               </p>
             </div>
-
+              
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-4">
               {stats.map((stat, index) => (
@@ -113,7 +114,23 @@ const AboutPreview = () => {
               ))}
             </div>
           </motion.div>
-
+          <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
+                            className="relative"
+                          >
+                            <div className="relative h-[500px] rounded-3xl overflow-hidden">
+                              <Image
+                                src="/profile3.webp"
+                                alt="Junaid Hussain"
+                                fill
+                                className="object-cover"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-primary-dark via-transparent to-transparent" />
+                            </div>
+                          </motion.div>
           {/* Right Column - Features */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -144,6 +161,23 @@ const AboutPreview = () => {
               </motion.div>
             ))}
           </motion.div>
+          <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
+                            className="relative"
+                          >
+                            <div className="relative h-[500px] rounded-3xl overflow-hidden">
+                              <Image
+                                src="/junaid_profile.jpg"
+                                alt="Junaid Hussain"
+                                fill
+                                className="object-cover"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-primary-dark via-transparent to-transparent" />
+                            </div>
+                          </motion.div>
         </div>
 
         {/* Mission Statement */}

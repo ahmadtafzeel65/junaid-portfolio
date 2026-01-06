@@ -14,10 +14,10 @@ const FloatingElements = () => {
   if (!isClient) return null
 
   const elements = [
-    { content: 'ﷺ', delay: 0, duration: 20, x: '10%', y: '20%' },
-    { content: '﷽', delay: 5, duration: 25, x: '85%', y: '30%' },
-    { content: 'الله', delay: 10, duration: 30, x: '15%', y: '70%' },
-    { content: 'محمد', delay: 15, duration: 22, x: '80%', y: '80%' },
+    { content: 'المسجد النبوي', delay: 0, duration: 20, x: '10%', y: '20%' },
+    { content: 'المدينة المنورة', delay: 5, duration: 25, x: '85%', y: '30%' },
+    { content: 'YouTube', delay: 10, duration: 30, x: '15%', y: '70%' },
+    { content: 'Instagram', delay: 15, duration: 22, x: '80%', y: '80%' },
   ]
 
   return (
@@ -28,8 +28,8 @@ const FloatingElements = () => {
           className="absolute text-secondary/10 font-arabic text-4xl sm:text-6xl"
           style={{ left: element.x, top: element.y }}
           animate={{
-            y: [0, -10, 0],
-            rotate: [0, 20, 0],
+            y: [0, -100, 0],
+            rotate: [0, 30, 0],
           }}
           transition={{
             duration: element.duration,
