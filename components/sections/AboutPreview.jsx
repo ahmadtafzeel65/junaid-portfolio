@@ -123,7 +123,7 @@ const AboutPreview = () => {
                           >
                             <div className="relative h-[500px] rounded-3xl overflow-hidden">
                               <Image
-                                src="/profile3.webp"
+                                src="/Junaid3.jpeg"
                                 alt="Junaid Hussain"
                                 fill
                                 className="object-cover"
@@ -170,7 +170,7 @@ const AboutPreview = () => {
                           >
                             <div className="relative h-[500px] rounded-3xl overflow-hidden">
                               <Image
-                                src="/junaid_profile.jpg"
+                                src="/Junaid7.jpeg"
                                 alt="Junaid Hussain"
                                 fill
                                 className="object-cover"

@@ -3,12 +3,12 @@
 
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
-import { 
-  BookOpen, 
-  Target, 
-  Heart, 
-  Users, 
-  Award, 
+import {
+  BookOpen,
+  Target,
+  Heart,
+  Users,
+  Award,
   Globe,
   Calendar,
   GraduationCap,
@@ -122,7 +122,7 @@ const AboutPage = () => {
             >
               <div className="relative h-[500px] rounded-3xl overflow-hidden">
                 <Image
-                  src="/junaid4.webp"
+                  src="/Junaid4.jpeg"
                   alt="Junaid Hussain"
                   fill
                   className="object-cover"
@@ -142,18 +142,16 @@ const AboutPage = () => {
                 My <span className="text-secondary">Story</span>
               </h2>
               <p className="text-gray-300 text-lg">
-                Assalamu Alaikum! I'm Junaid Hussain, a 12-year-old student at Madina University 
-                with a passion for spreading authentic Islamic knowledge to the youth.
+                Junaid Hussain<br />
+                Age: 12<br />
+                Nationality: American<br />
+                Current Location: Madinah Munawwarah, Saudi Arabia
               </p>
               <p className="text-gray-400">
-                Born and raised in a Muslim family, I developed a deep love for the Quran and 
-                Sunnah from a young age. At 9 years old, I started my YouTube channel to share 
-                Islamic teachings in a way that resonates with young people today.
+                Junaid Hussain is a young content creator and documentary-style vlogger based in the Prophet’s City, Madinah Munawwarah ﷺ. He creates respectful, educational, and visually engaging content focused on Islamic history, Ziyārah locations, daily life around Masjid an-Nabawi ﷺ, and the experience of growing up as an expat in Saudi Arabia.
               </p>
               <p className="text-gray-400">
-                Currently studying at Madina University, I combine traditional Islamic education 
-                with modern content creation techniques to make Islamic knowledge accessible, 
-                engaging, and relevant for the digital generation.
+                His work blends short-form and long-form storytelling, combining historical research, on-location filming, and youth-friendly narration while maintaining reverence for Islamic subjects. Junaid’s content aims to educate, inspire curiosity, and help viewers connect more deeply with the places and history of Islam.
               </p>
             </motion.div>
           </div>
@@ -191,8 +189,8 @@ const AboutPage = () => {
               </div>
               <h3 className="text-xl font-bold text-white mb-4">My Mission</h3>
               <p className="text-gray-400">
-                To provide authentic, engaging, and accessible Islamic education to Muslim youth 
-                worldwide through digital platforms, helping them strengthen their faith and 
+                To provide authentic, engaging, and accessible Islamic education to Muslim youth
+                worldwide through digital platforms, helping them strengthen their faith and
                 navigate modern challenges with Islamic principles.
               </p>
             </motion.div>
@@ -209,9 +207,7 @@ const AboutPage = () => {
               </div>
               <h3 className="text-xl font-bold text-white mb-4">My Vision</h3>
               <p className="text-gray-400">
-                To build a global community of confident, knowledgeable young Muslims who are 
-                proud of their faith, equipped with authentic Islamic knowledge, and capable of 
-                being positive contributors to society.
+                To build a high-quality, trustworthy youth documentary channel that showcases the beauty, history, and daily life of Madinah while inspiring young Muslims and viewers worldwide to learn, reflect, and stay connected to their faith.
               </p>
             </motion.div>
           </div>

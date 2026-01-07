@@ -24,10 +24,10 @@ const Gallery = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Islamic <span className="text-secondary">Gallery</span>
+            Galleries <span className="text-secondary">From Madina</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            A visual journey through Islamic teachings, Madina life, and content creation moments
+            A visual journey through Madina life, and Islamic content creation moments
           </p>
         </motion.div>
 
